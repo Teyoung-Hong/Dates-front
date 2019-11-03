@@ -1,0 +1,40 @@
+/* sort */
+.sorts__wrapper {
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  overflow: scroll;
+}
+
+.sort {
+  font-size: 5rem;
+  margin: 0 5rem;
+  line-height: 15rem;
+}
+
+/* plan */
+.plan__wrapper {
+  width: 80%;
+  height: 250px;
+  background: pink;
+  border-radius: 50px;
+  box-shadow: 4rem 5rem 6rem grey;
+  margin: 100px auto;
+  position: relative;
+}
+
+.plan__desc {
+  width: 100%;
+  height: 70px;
+  background: black;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.8;
+  color: white;
+}
+
+.plan__items {
+  margin: 0 1rem;
+}
